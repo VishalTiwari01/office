@@ -7,7 +7,7 @@ import About from './Pages/About'
 import AppLayout from './component/AppLayout'
 import ErrorPage  from './Pages/ErrorPage'
 import FormPage from './Pages/FormPage'
-import Service from './pages/Service'
+
 
 
 const App = () => {
@@ -27,10 +27,7 @@ const App = () => {
                         path : '/about',
                         element:<About/>,
                     },
-                    {
-                        path : '/service',
-                        element:<Service/>
-                    },
+                   
                     {
                         path : '/Register-Professional',
                         element:<FormPage/>
