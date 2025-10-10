@@ -2,11 +2,12 @@ import React from 'react'
 import {createBrowserRouter,RouterProvider,} from 'react-router-dom'
 import Home from './Pages/Home'
 import About from './Pages/About'
-import Service from './pages/Service'
+
 
 import AppLayout from './component/AppLayout'
 import ErrorPage  from './Pages/ErrorPage'
 import FormPage from './Pages/FormPage'
+import Service from './pages/Service'
 
 
 const App = () => {
